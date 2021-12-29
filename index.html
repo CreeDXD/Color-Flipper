@@ -4,7 +4,7 @@
         <meta charset='utf-8'>
         <link rel="stylesheet" href="style.css">
     </head>
-    <body>        
+    <body id="body">        
         <nav>
             <h4>Color flipper</h4>
 
@@ -21,7 +21,9 @@
         </nav>
         <main class="main">
             <p>Background Color: <span id="color"></span></p>
-            <input type="button" value="CLICK ME">
+            <input type="button" value="CLICK ME" id="button" onclick="changeColor();">
         </main>
+        
+        <script src="script.js"></script>
     </body>
 </html>
